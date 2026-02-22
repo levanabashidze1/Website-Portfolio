@@ -402,6 +402,9 @@ footer ul li a{
         font-size: 1.3rem;
         margin-right: 1rem;
     }
+    .nav-links :hover .content{
+       display: none;
+    }
 
     .about-container img{
         width: 80vw;
