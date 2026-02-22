@@ -218,7 +218,7 @@ section{
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 2rem;
 }
 .grid-card{
@@ -342,6 +342,7 @@ footer ul li a{
     }
     header .logo{
         font-size: 1rem;
+        margin-right: 2rem;
     }
     header .visit-btn{
         display: none;
@@ -376,7 +377,7 @@ footer ul li a{
         position: absolute;
         top: 100%;
         margin-top: 1rem;
-        width: 100%;
+        width: 60%;
         padding: 1rem;
         color: white;
         display: flex;
@@ -394,12 +395,12 @@ footer ul li a{
         display: block;
     }
     header{
-        padding: 1rem 5rem;
-        gap: 8rem;
+        padding: 1rem 6rem;
+        gap: 4rem;
     }
     header .logo{
-        font-size: 1.5rem;
-        margin-right: 2rem;
+        font-size: 1.3rem;
+        margin-right: 1rem;
     }
 
     .about-container img{
