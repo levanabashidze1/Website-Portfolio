@@ -141,7 +141,14 @@ section{
     position: absolute;
     z-index: -1;
 } */
-
+.square{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(40, 40, 40, 0.7);
+    position: absolute;
+    backdrop-filter: blur(0px);
+    z-index: -1;
+}
 .video-container {
     width: 100%;
     overflow: hidden;
@@ -149,7 +156,7 @@ section{
     height: 100%;
     
     position: absolute;
-    z-index: -1;
+    z-index: -2;
 }
 #glass {
     position: absolute;
