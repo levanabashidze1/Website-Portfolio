@@ -27,11 +27,9 @@ header{
 .square{
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(40, 40, 40, 0.7);
     position: absolute;
-    backdrop-filter: blur(8px);
-    /* left: 0px;
-    top: 0px; */
+    backdrop-filter: blur(0px);
     /* z-index: -1; */
 }
 .logo{
@@ -77,10 +75,10 @@ li a:hover{
 /* Dropdown */
 .content{
     display: none;
-    position:absolute;
+    position: absolute;
     padding: 10px 15px;
     border-radius: 1rem;
-    background-color:rgba(30, 30, 30, 0.9);
+    background-color:rgba(32, 32, 32, 0.95);
     
 }
 .content a{
@@ -136,6 +134,26 @@ section{
     z-index: -1;
     /* border-radius: 50% */
 } 
+/* .about video{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    position: absolute;
+    z-index: -1;
+} */
+
+.video-container {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#glass {
+    margin-left: 0px;
+}
+
 .info-box{
     display: flex;
     color: white;
@@ -185,12 +203,13 @@ section{
     display: flex;
     gap: 2rem;
 }
-.socials i{
+.socials a{
+    color:white;
     font-size: 2.5rem;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
-.socials i:hover{
+.socials a:hover{
     transform:scale(1.1);
 }
 
@@ -414,6 +433,17 @@ footer ul li a{
     }
     .about-container img{
         width: 80vw;
+    }
+    .square{
+        height: 90%;
+    }
+    .video-container {
+        margin-top: -45%;
+        height: 100%;
+    }
+    #glass {
+        
+    margin-left: -720px;
     }
     .input-box input{
         padding: 0.5rem 3rem;

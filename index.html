@@ -40,12 +40,23 @@
 
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-        <button class="visit-btn">Visit Channel</button>
+        <a target="_blank" href="https://www.youtube.com/@Le1cho" class="visit-btn">Visit Channel</a>
+        <!-- <button class="visit-btn"  onclick="window.location.href = 'https://www.youtube.com/@Le1cho';">Visit Channel
+         </button> -->
+        
+        
     </header>
 
     <section id="about" class="about">
         <div class="about-container">
-            <img src="./Images/komble p01f.png" alt="">
+
+            <div class="video-container">
+                <video id="glass" autoplay muted controls loop>
+                <source src="./Videos/komble_BG_video_0001-0854.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                </video>
+                
+            </div>
 
             <div class="info-box">
                 <div class="text">
@@ -60,8 +71,8 @@
                 </div>
 
                 <div class="socials">
-                    <i class="fa-brands fa-youtube"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <a target="_blank" href="https://www.youtube.com/@Le1cho" class="fa-brands fa-youtube"></a>
+                    <a class="fa-brands fa-linkedin"></a>
                 </div>
            
             </div>       
