@@ -434,15 +434,14 @@ footer ul li a{
     .about-container img{
         width: 80vw;
     }
-    .square{
+    /* .square{
         height: 90%;
     }
     .video-container {
         margin-top: -45%;
         height: 100%;
-    }
+    } */
     #glass {
-        
     margin-left: -720px;
     }
     .input-box input{
