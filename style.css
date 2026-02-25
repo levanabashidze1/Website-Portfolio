@@ -147,10 +147,13 @@ section{
     overflow: hidden;
     display: block;
     height: 100%;
+    
     position: absolute;
     z-index: -1;
 }
 #glass {
+    position: absolute;
+    min-width: 100%;
     margin-left: 0px;
 }
 
@@ -441,9 +444,9 @@ footer ul li a{
         margin-top: -45%;
         height: 100%;
     } */
-    #glass {
-    margin-left: -720px;
-    }
+    /* #glass {
+    align-items: center;
+    } */
     .input-box input{
         padding: 0.5rem 3rem;
         width: 80%;
