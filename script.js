@@ -9,6 +9,11 @@ menuIcon.addEventListener('click', () => {
     navLinks.classList.toggle('active')
 })
 
+navLinks.addEventListener('click', () => {
+    navLinks.classList.toggle('active')
+})
+
+
 document.addEventListener('click', e => {
     if(!navLinks.contains(e.target) && e.target !== menuIcon) {
         navLinks.classList.remove('active')
