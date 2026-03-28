@@ -46,3 +46,13 @@ function showSlides(n) {
     
 }
 
+//Copy e-mail
+
+function copyMail() {
+
+    navigator.clipboard.writeText("gmail.com");
+
+}
+
+
+
