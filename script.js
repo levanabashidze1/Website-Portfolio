@@ -50,7 +50,7 @@ function showSlides(n) {
 
 function copyMail() {
 
-    navigator.clipboard.writeText("gmail.com");
+    navigator.clipboard.writeText("levanabashidze.contact@gmail.com");
 
 }
 
