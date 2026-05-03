@@ -437,6 +437,10 @@ footer ul li a{
     color: black;
     font-weight: 600;
 }
+
+footer ul li a:hover{
+    color: rgb(120,120,120);
+}
 .copyright{
     font-size: 300;
     margin-top: 2rem;
@@ -612,5 +616,8 @@ footer ul li a{
     
     footer ul{
         gap: 1rem;
+    }
+    .copyright{
+        font-size: 0.8rem;
     }
 }
